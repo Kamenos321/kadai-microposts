@@ -6,7 +6,7 @@
                 <img class="mr-2 rounded" src="{{ Gravatar::get($user->email, ['size' => 50]) }}" alt="">
                 <div class="media-body">
                     <div>
-                        {{ $user->name }}
+                    {{ $user->name }}
                     </div>
                     <div>
                         {{-- ユーザ詳細ページへのリンク --}}
